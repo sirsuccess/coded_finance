@@ -9,5 +9,6 @@ export default {
   green5: "#8DEF6F",
   green: "#40C518",
   lightGreen: "#A8F192",
-  deepGreen: "#063008"
+  deepGreen: "#063008",
+  lightDark: "#646A65"
 };
