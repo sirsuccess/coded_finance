@@ -59,7 +59,7 @@ export default function ConfirmBVN({ navigation }) {
               title="Proceed"
               widt={300}
               navigation={navigation}
-              distination={"FirstScreen"}
+              distination={"Dashboard"}
             />
           </View>
         </View>
@@ -75,6 +75,7 @@ const styles = StyleSheet.create({
     backgroundColor: Color.white
   },
   container: {
+    paddingTop: 100,
     width: "80%",
     backgroundColor: Color.white,
     marginLeft: "auto",
