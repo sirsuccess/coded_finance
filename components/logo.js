@@ -30,7 +30,8 @@ const styles = StyleSheet.create({
     color: Color.deepGreen,
     fontSize: 33,
     fontWeight: "bold",
-    opacity: 0.89
+    opacity: 0.89,
+    marginTop: 50
     // fontFamily: "Segoe UI"
   },
   circleContainer: {
