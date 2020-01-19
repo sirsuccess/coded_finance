@@ -3,7 +3,10 @@ import { StyleSheet, Text, View, Button } from "react-native";
 import GlobalStyle from "../styles/globalStyles";
 import Color from "../constants/colors";
 
-export default function Btn({ title, widt }) {
+export default function Btn({ title, widt, navigation, distination }) {
+  // console.log(navigation);
+
+  const routeHandler = () => navigation.navigate(distination);
   return (
     <View
       style={[
@@ -14,7 +17,13 @@ export default function Btn({ title, widt }) {
         }
       ]}
     >
-      <Button title={title} color={Color.green5} />
+      <Button
+        title={title}
+        color={
+          "linear-gradient(107deg, rgba(117, 233, 119, 1), rgba(112, 229, 109, 1), rgba(94, 229, 85, 1), rgba(45, 228, 39, 1))"
+        }
+        onPress={routeHandler}
+      />
     </View>
   );
 }
