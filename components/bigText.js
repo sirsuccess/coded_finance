@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   BigText: {
     color: Color.deepGreen,
     fontSize: 43,
-    fontWeight: "bold",
-    marginTop: 100
+    fontWeight: "bold"
+    // marginTop: 100
   }
 });
