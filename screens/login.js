@@ -23,7 +23,7 @@ export default function Login({ navigation }) {
             <TextInput placeholder="Email" keyboardType="email-address" />
           </View>
           <View style={styles.InputText}>
-            <TextInput placeholder="Password" keyboardType="email-address" />
+            <TextInput placeholder="Password" secureTextEntry={true} />
           </View>
           <TouchableOpacity>
             <View style={styles.Reset}>
