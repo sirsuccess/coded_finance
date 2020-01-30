@@ -1,9 +1,15 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import Route from "./routes/indexRoute";
+import { StyleSheet, Text, View, StatusBar } from "react-native";
+import Route from "./navigations/indexRoute";
+import Colors from "./constants/colors";
 
 export default function App() {
-  return <Route />;
+  return (
+    <>
+      <StatusBar color={Colors.lightGreen} barStyle="light-content" />
+      <Route />
+    </>
+  );
 }
 
 const styles = StyleSheet.create({
